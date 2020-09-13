@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>1</id>
+		<name>Cities</name>
+		<table_name>citeis</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>1</id>
+			<lid>ru</lid>
+			<name>Города</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>1</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>UF_NAME</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Название</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Название</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Название</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>Название</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>2</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_INCOME</field_name>
+			<user_type_id>double</user_type_id>
+			<xml_id>UF_INCOME</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<precision>4</precision>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value>0</default_value>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Доходы общие</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Доходы общие</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Доходы общие</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>Доходы общие</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>double</base_type>
+		</field>
+		<field>
+			<id>3</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_COSTS</field_name>
+			<user_type_id>double</user_type_id>
+			<xml_id>UF_COSTS</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<precision>4</precision>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value>0</default_value>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Общие расходы</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Общие расходы</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Общие расходы</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>Общие расходы</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>double</base_type>
+		</field>
+		<field>
+			<id>4</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_NUM_RES</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id>UF_NUM_RES</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Количество жителей</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Количество жителей</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Количество жителей</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>Количество жителей</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_name>Москва</uf_name>
+			<uf_income>1381910611000</uf_income>
+			<uf_costs>1200000000000</uf_costs>
+			<uf_num_res>12678079</uf_num_res>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_name>Санкт-Петербург</uf_name>
+			<uf_income>431845120000</uf_income>
+			<uf_costs>390000000000</uf_costs>
+			<uf_num_res>5398064</uf_num_res>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_name>Екатеринбург</uf_name>
+			<uf_income>123068681000</uf_income>
+			<uf_costs>115000000000</uf_costs>
+			<uf_num_res>1493749</uf_num_res>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_name>Нижний Новгород</uf_name>
+			<uf_income>56407995000</uf_income>
+			<uf_costs>43000000000</uf_costs>
+			<uf_num_res>1253511</uf_num_res>
+		</item>
+	</items>
+</hiblock>
