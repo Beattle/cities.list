@@ -24,7 +24,7 @@ class CitiesList extends CBitrixComponent
     public function executeComponent()
     {
         Loader::includeModule('highloadblock');
-        $cites = HighloadBlockTable::getRow(['filter' => ['=NAME' => $this->arParams['qwY']]]);
+        $cites = HighloadBlockTable::getRow(['filter' => ['=NAME' => $this->arParams['ENTITY']]]);
         if ($cites === null){
             return ''; // выводим ошибку
         }
