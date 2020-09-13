@@ -211,5 +211,40 @@
 			<uf_costs>43000000000</uf_costs>
 			<uf_num_res>1253511</uf_num_res>
 		</item>
+		<item>
+			<id>5</id>
+			<uf_name>Казань</uf_name>
+			<uf_income>456789456</uf_income>
+			<uf_costs>789789931</uf_costs>
+			<uf_num_res>7898796</uf_num_res>
+		</item>
+		<item>
+			<id>6</id>
+			<uf_name>Мураманск</uf_name>
+			<uf_income>465326487</uf_income>
+			<uf_costs>789879654</uf_costs>
+			<uf_num_res>13214567</uf_num_res>
+		</item>
+		<item>
+			<id>7</id>
+			<uf_name>Калининград</uf_name>
+			<uf_income>799999754612</uf_income>
+			<uf_costs>4564321214</uf_costs>
+			<uf_num_res>2147483647</uf_num_res>
+		</item>
+		<item>
+			<id>8</id>
+			<uf_name>Челябинск</uf_name>
+			<uf_income>1232134</uf_income>
+			<uf_costs>452234235</uf_costs>
+			<uf_num_res>12345612</uf_num_res>
+		</item>
+		<item>
+			<id>9</id>
+			<uf_name>Владивосток</uf_name>
+			<uf_income>123134555</uf_income>
+			<uf_costs>33321267</uf_costs>
+			<uf_num_res>78678976</uf_num_res>
+		</item>
 	</items>
 </hiblock>
